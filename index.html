@@ -4,17 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../build/styles.css">
     <title>Document</title>
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="../build/styles.css">
     <style>
-        #xxx {
-            background-image: url(http://lorempixel.com/1800/414);
+        .sale-up {
+            background-image: url('https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2020/02/bench-accounting-scaled.jpg')
         }
     </style>
 </head>
 
 <body>
-
     <div class="container mx-auto -bottom-1 ">
         <header>
             <div class=" mx-auto ">
@@ -29,7 +29,7 @@
                 </div>
 
                 <div class="items-center py-5 xl:flex">
-                    <a href="#" class="block text-center xl:text-left">
+                    <a href="index.html" class="block text-center xl:text-left">
                         <img class="mx-auto xl:m-0 xl:flex hidden "
                             src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/themes/metro/assets/img/logo-dark.png"
                             width="159" height="153" alt="">
@@ -38,12 +38,12 @@
                     <div id="main-menu" class="flex w-full overflow-x-auto xl:ml-64 justify-between w-full">
                         <nav>
                             <ul class="flex text-base font-sans">
-                                <li><a href="" class="px-4">Home</a></li>
-                                <li><a href="" class="px-4">Shop</a></li>
-                                <li><a href="" class="px-4">Page</a></li>
-                                <li><a href="" class="px-4">Elements</a></li>
-                                <li><a href="" class="px-4">Blogs</a></li>
-                                <li><a href="" class="px-4">Contact</a></li>
+                                <li><a href="index.html" class="px-4">Home</a></li>
+                                <li><a href="shop.html" class="px-4">Shop</a></li>
+                                <li><a href="page.html" class="px-4">Page</a></li>
+                                <li><a href="element.html" class="px-4">Elements</a></li>
+                                <li><a href="blog.html" class="px-4">Blogs</a></li>
+                                <li><a href="contact.html" class="px-4">Contact</a></li>
                             </ul>
                         </nav>
                         <div>
@@ -55,48 +55,512 @@
                 </div>
             </div>
         </header>
-    </div>
-    <!--header-->
+        <!--end div-->
 
-    <section class="">
-        <div id="xxx" class="h-custom415 text-center pt-32">
-            <p class="text-4xl font-bold font-serif">Shop</p>
-            <span class="text-lg font-hairline text-gray-600">Home > Shop <span class="font-bold text-black">>
-                    Product</span></span>
-        </div>
-    </section>
-    <!--banner-->
+        <section class="container mx-auto">
+            <div class="xl:grid xl:grid-cols-12 gap-5">
+                <aside class="col-span-3 bg-gray-300">
+                    <button id="categories" class="w-full">
+                        <h2 class="bg-black text-center text-white text-xl uppercase py-4 px-5 rounded-t-md text-xl">
+                            Categories</h2>
+                    </button>
+                    <ul id="categories2" class="hidden xl:block">
+                        <li>
+                            <a href="" class="block px-8 py-4 border-b border-gray-400 hover:bg-gray-500">
+                                Men</a>
+                        </li>
+                        <li>
+                            <a href="" class="block px-8 py-4 border-b border-gray-400 hover:bg-gray-500">
+                                Women</a>
+                        </li>
+                        <li>
+                            <a href="" class="block px-8 py-4 border-b border-gray-400 hover:bg-gray-500">
+                                Electionics</a>
+                        </li>
+                        <li>
+                            <a href="" class="block px-8 py-4 border-b border-gray-400 hover:bg-gray-500">
+                                Jewellery</a>
+                        </li>
+                        <li>
+                            <a href="" class="block px-8 py-4 border-b border-gray-400 hover:bg-gray-500">
+                                Shoes</a>
+                        </li>
+                        <li>
+                            <a href="" class="block px-8 py-4 border-b border-gray-400 hover:bg-gray-500">
+                                Kid's Wear</a>
+                        </li>
+                        <li>
+                            <a href="" class="block px-8 py-4 border-b border-gray-400 hover:bg-gray-500">
+                                Sport</a>
+                        </li>
+                        <li>
+                            <a href="" class="block px-8 py-4 border-b border-gray-400 hover:bg-gray-500">
+                                Toys</a>
+                        </li>
+                        <li>
+                            <a href="" class="block px-8 py-4 border-b border-gray-400 hover:bg-gray-500">
+                                Gift Corners</a>
+                        </li>
+                    </ul>
+                </aside>
+                <div class="col-span-9">
+                    <div class="mb-5">
+                        <form action="">
+                            <div class="flex border border-gray-300 rounded-md">
+                                <input type="text" class="w-full px-4">
+                                <div class="flex">
+                                    <select name="" id="" class="px-5 mr-5 border-l border-gray-300 hidden xl:block">
+                                        <option value="">All Categories</option>
+                                    </select>
+                                    <button class="bg-black py-4 px-5 text-white rounded-r-md">Search</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="grid grid-cols-2">
+                        <div class="flex justify-center items-center">
+                            <div>
+                                <h2 class="text-6xl font-bold">Spring
+                                    <span class="bg-black text-white pt-4 pb-2 px-5">Sale</span></h2>
+                                <p>New morden</p>
+                                <a href="#"
+                                    class="inline-block border-b border-black text-xl font-bold uppercase xl: pl-0 pl-2 mt-12 ">Explore
+                                    Now</a>
+                            </div>
+                        </div>
 
-    <div class="container mx-auto  mt-5">
-        <div class="flex justify-between">
-            <span class="pt-3">Showing 1–9 of 65 results</span>
-
-            <div class="flex">
-                <select class="border rounded w-64 h-12 mr-10">
-                    <option>Sort by latest</option>
-                    <option>Sort by popularty</option>
-                    <option>Sort by: low to high</option>
-                    <option>Sort by: high to low</option>
-                </select>
-                <div class="pt-3 pr-10">
-                    <a href="" class="">#</a>
-                    <a href="" class="">#</a>
+                        <div>
+                            <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/11/h8b.jpg"
+                                alt="">
+                        </div>
+                    </div>
                 </div>
-                <form class="border w-64 flex">
-                    <input class="w-64" type="text" placeholder="Search product ...">
-                    <button><img class="" src="https://bom.to/Q4nzude" width="30" height="30" alt=""></button>
-                </form>
+            </div>
+        </section><!-- Banner -->
+        <!--list view-->
+
+        <!--end div-->
+        <section class="container mx-auto mt-5">
+            <div class="xl:grid grid-cols-2 gap-5">
+                <div class="relative">
+                    <a href="#" class="block p-1 xl:p-0">
+                        <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/10/h82.jpg"
+                            alt="">
+                        <div class="absolute bottom-0 left-0 mb-5 ml-5">
+                            <h2 class="text-xl font-bold uppercase">Womens</h2>
+                            <span class="border-b border-black pb-1">Trending</span>
+                        </div>
+                    </a>
+                </div><!-- Cot 1-->
+                <div class="relative">
+                    <a href="#" class="block p-1 xl:p-0">
+                        <img
+                            src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/10/h81.jpg" />
+
+                        <div class="absolute bottom-0 left-0 mb-5 ml-5">
+                            <h2 class="text-xl font-bold uppercase">Womens</h2>
+                            <span class="border-b border-black pb-1">Trending</span>
+                        </div>
+                    </a>
+                </div><!-- Cot 1-->
+            </div><!-- Cot 1-->
+        </section>
+        <!--banner-->
+        <section class="container mx-auto py-12">
+            <div class="text-center py-5">
+                <h2 class="text-3xl xl:text-4xl font-bold">Our Trendy Products</h2>
+            </div>
+            <!--Phan dau-->
+            <div>
+                <div class="grid grid-cols-1 xl:grid-cols-4 gap-8">
+                    <div class="relative">
+                        <div class=" flex justify-center items-center p-5">
+                            <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/03/p_4-360x432.jpg"
+                                alt="">
+                        </div>
+                        <div>
+                            <h4 class="mt-3"><a href="#" class="text-gray-700">Game Controller</a></h4>
+                            <span class="mr-3 line-through text-gray-500">$390.00</span>
+                            <span class="text-lg"> $375.00</span>
+                        </div>
+                        <span
+                            class="absolute top-0 left-0 mt-3 ml-5 bg-black text-white text-xs py-1 px-2 rounded ">-4%</span>
+                    </div><!-- Item -->
+                    <div class="relative">
+                        <div class=" flex justify-center items-center p-5">
+                            <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/03/p_7-360x432.jpg"
+                                alt="">
+                        </div>
+                        <div>
+                            <h4 class="mt-3"><a href="#" class="text-gray-700">Teddy Bag</a></h4>
+                            <span class="text-lg"> $42.00</span>
+                        </div>
+
+                    </div><!-- Item -->
+                    <div class="relative">
+                        <div class=" flex justify-center items-center p-5">
+                            <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/03/p_2-360x432.jpg"
+                                alt="">
+                        </div>
+                        <div>
+                            <h4 class="mt-3"><a href="#" class="text-gray-700">Mens Tshirt</a></h4>
+                            <span class="text-lg"> $27.00</span>
+                        </div>
+
+                    </div><!-- Item -->
+                    <div class="relative">
+                        <div class=" flex justify-center items-center p-5">
+                            <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/03/p_2-1-360x432.jpg  "
+                                alt="">
+                        </div>
+                        <div>
+                            <h4 class="mt-3"><a href="#" class="text-gray-700">Necklace</a></h4>
+                            <span class="text-lg"> $384.00</span>
+                        </div>
+
+                    </div><!-- Item -->
+                    <div class="relative">
+                        <div class=" flex justify-center items-center p-5">
+                            <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/03/p_11-360x432.jpg"
+                                alt="">
+                        </div>
+                        <div>
+                            <h4 class="mt-3"><a href="#" class="text-gray-700">Gadgets Collection</a></h4>
+                            <span class="mr-3 line-through text-gray-500">$35.00</span>
+                            <span class="text-lg"> $375.00</span>
+                        </div>
+                        <span
+                            class="absolute top-0 left-0 mt-3 ml-5 bg-black text-white text-xs py-1 px-2 rounded ">-0%</span>
+                    </div><!-- Item -->
+                    <div class="relative">
+                        <div class=" flex justify-center items-center p-5">
+                            <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/01/jacket_1-360x432.jpg"
+                                alt="">
+                        </div>
+                        <div>
+                            <h4 class="mt-3"><a href="#" class="text-gray-700">Regular Jacket</a></h4>
+                            <span class="text-lg"> $510.00</span>
+                        </div>
+
+                    </div><!-- Item -->
+                    <div class="relative">
+                        <div class=" flex justify-center items-center p-5">
+                            <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/03/p_5-111-360x432.jpg"
+                                alt="">
+                        </div>
+                        <div>
+                            <h4 class="mt-3"><a href="#" class="text-gray-700">Headphone</a></h4>
+                            <span class="text-lg"> $35.00</span>
+                        </div>
+
+                    </div><!-- Item -->
+
+
+
+                    <div class="relative">
+                        <div class=" flex justify-center items-center p-5">
+                            <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2020/02/l-360x432.jpg"
+                                alt="">
+                        </div>
+                        <div>
+                            <h4 class="mt-3"><a href="#" class="text-gray-700">
+                                    Ultra Lense</a></h4>
+                            <span class="text-lg"> $630.00</span>
+                        </div>
+
+                    </div><!-- Item -->
+
+                </div>
+            </div>
+
+
+            <!--Phan than-->
+
+            <div class="grid xl:grid-cols-4 gap-8 ">
+                <div class="relative">
+                    <div class=" flex justify-center items-center p-5">
+                        <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2020/08/p_7-360x432.png"
+                            alt="">
+                    </div>
+                    <div>
+                        <h4 class="mt-3"><a href="#" class="text-gray-700">Acetate Frame Sunglasses – Black, S</a></h4>
+                        <span class="mr-3 line-through text-gray-500">$90.00</span>
+                        <span class="text-lg"> $70.00</span>
+                    </div>
+                    <span
+                        class="absolute top-0 left-0 mt-3 ml-5 bg-black text-white text-xs py-1 px-2 rounded ">-22%</span>
+                </div><!-- Item -->
+                <div class="relative">
+                    <div class=" flex justify-center items-center p-5">
+                        <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2020/08/p_1-360x432.png"
+                            alt="">
+                    </div>
+                    <div>
+                        <h4 class="mt-3"><a href="#" class="text-gray-700">Acetate Frame Sunglasses – Grey, M</a></h4>
+                        <span class="mr-3 line-through text-gray-500">$74.00</span>
+                        <span class="text-lg"> $10.00</span>
+                    </div>
+                    <span
+                        class="absolute top-0 left-0 mt-3 ml-5 bg-black text-white text-xs py-1 px-2 rounded ">-86%</span>
+                </div><!-- Item -->
+                <div class="relative">
+                    <div class=" flex justify-center items-center p-5">
+                        <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2020/08/p_10-360x432.png"
+                            alt="">
+                    </div>
+                    <div>
+                        <h4 class="mt-3"><a href="#" class="text-gray-700">Acetate Frame Sunglasses – Green, M</a></h4>
+                        <span class="mr-3 line-through text-gray-500">$40.00</span>
+                        <span class="text-lg"> $30.00</span>
+                    </div>
+                    <span
+                        class="absolute top-0 left-0 mt-3 ml-5 bg-black text-white text-xs py-1 px-2 rounded ">-25%</span>
+                </div><!-- Item -->
+                <div class="relative">
+                    <div class=" flex justify-center items-center p-5">
+                        <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2020/08/p_5-360x432.png"
+                            alt="">
+                    </div>
+                    <div>
+                        <h4 class="mt-3"><a href="#" class="text-gray-700">Acetate Frame Sunglasses – Black, L</a></h4>
+                        <span class="mr-3 line-through text-gray-500">$40.00</span>
+                        <span class="text-lg"> $30.00</span>
+                    </div>
+                    <span
+                        class="absolute top-0 left-0 mt-3 ml-5 bg-black text-white text-xs py-1 px-2 rounded ">-25%</span>
+                </div><!-- Item -->
+
+                <!--view pro duct-->
+            </div>
+    </div>
+    </section>
+    <div class="text-center">
+        <a href="#" class="border-b border-black pb-1 uppercase">View All Product</a>
+    </div><!-- Phan chan-->
+
+    <br><br>
+    <section class="sale-up bg-gray-300 py-24 bg-bottom bg-center bg-fixed bg-no-repeat">
+        <div class="container mx-auto">
+            <div class="w-1/3">
+                <h2 class="text-4xl font-medium">End of Season Clearance Sale upto 30% </h2>
+                <p class="my-5">Stock is limited. Order now to avoid
+                    disappointment.</p>
+                <a href="#" class="bg-white inline-block py-4 px-6 uppercase">Shop now</a>
             </div>
         </div>
-        <!--toolbar-->
+    </section>
 
+    <section class="py-24 mx-auto">
+        <div class="container mx-auto">
+            <div class="grid gap-4 xl:gap-0 xl:grid-cols-2 p-5 xl:p-0">
+                <div class="relative ">
+                    <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/11/p81.jpg"
+                        alt="" class="ml-auto">
+                    <div class="absolute bottom-0 left-0 w-1/3 mb-6">
+                        <h2 class="text-3xl font-medium">Glamour Long Sweater</h2>
+                        <p class="my-5">The timeless designs jeans </p>
+                        <a href="#" class="border-b border-black pb-1">Shop now</a>
+                    </div>
+                </div>
+                <div class="relative ">
+                    <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/11/p82.jpg"
+                        alt="" class="ml-auto">
+                    <div class="absolute top-0 left-0 w-1/3 ml-16 mt-12 xl:mt-5">
+                        <h2 class="text-3xl font-medium">Locatto Sports Shoes </h2>
+                        <p class="my-5">The timeless designs jeans </p>
+                        <a href="#" class="border-b border-black pb-1">Shop now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container xl:mx-auto">
+        <section class=>
+            <div class="text-center text-2xl font-bold xl:font-black xl:text-3xl pb-8">
+                <a href="">Inspirational Posts</a>
+            </div>
+            <div class="grid xl:grid-cols-3 gap-8">
+                <div>
+                    <a href=""><img
+                            src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2020/08/3-465x290.jpg"
+                            alt=""></a><br>
+                    <span class="text-base">Leather, Lifestyle</span><br>
+                    <span class="text-xl font-bold">Minimal Design Inspiration</span>
+                </div>
+                <!--1-->
 
+                <div>
+                    <a href=""><img
+                            src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2020/08/1-465x290.jpg"
+                            alt=""></a><br>
+                    <span class="text-base">Leather, Lifestyle</span><br>
+                    <span class="text-xl font-bold">First Day Sales On Instagram</span>
+                </div>
+                <!--2-->
+
+                <div>
+                    <a href="">
+                        <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2020/08/2-465x290.jpg"
+                            alt=""></a><br>
+                    <span class="text-base">Leather, Lifestyle</span><br>
+                    <span class="text-xl font-bold">Habitant morbi tristique senectus</span>
+                </div>
+                <!--3-->
+            </div>
+        </section>
+        <!--Inspirational Posts-->
+    </div>
+    <section>
+        <div class="grid xl:grid-cols-8 mt-12">
+            <a class="pb-1 xl:pr-1" href="">
+                <img src="http://lorempixel.com/375/190" alt="">
+            </a>
+            <a class="pb-1 xl:pr-1" href="">
+                <img src="http://lorempixel.com/375/190" alt="">
+            </a>
+            <a class="pb-1 xl:pr-1" href="">
+                <img src="http://lorempixel.com/375/190" alt="">
+            </a>
+            <a class="pb-1 xl:pr-1" href="">
+                <img src="http://lorempixel.com/375/190" alt="">
+            </a>
+            <a class="pb-1 xl:pr-1" href="">
+                <img src="http://lorempixel.com/375/190" alt="">
+            </a>
+            <a class="pb-1 xl:pr-1" href="">
+                <img src="http://lorempixel.com/375/190" alt="">
+            </a>
+            <a class="pb-1 xl:pr-1" href="">
+                <img src="http://lorempixel.com/375/190" alt="">
+            </a>
+            <a class="pb-1 xl:pr-1" href="">
+                <img src="http://lorempixel.com/375/190" alt="">
+            </a>
+        </div>
+    </section>
+
+    <div class="container mx-auto">
+        <div class="xl:flex mt-16">
+            <p class="text-xl xl:text-3xl text-center font-serif xl:pl-10">JOIN US & GET A SPECIAL</p>
+            <p class="text-3xl text-center font-serif pl-2">WELCOME GIFT</p>
+            <div class="pt-5 xl:pt-0 grid grid-rows-2 xl:flex">
+                <input class="rounded-full xl:py-2 xl:px-4 h-12 h-8 xl:ml-5 bg-gray-400 " type="text"
+                    placeholder="Your email anddress">
+                <button
+                    class="bg-black text-white rounded-full w-64 mx-auto xl:h-12 xl:w-32 xl:ml-2 ">Subscribe</button>
+            </div>
+        </div>
+        <!--input-->
+    </div>
+    </div>
+    <!--end div container w80%-->
+    <div class="grid xl:grid-cols-4 gap-9 bg-black mt-5 font-sans xl:h-custom415 text-base ">
+        <div class="m-5 pt-10">
+            <div class="flex xl:pt-4 pl-10 ">
+                <img class="pl-5" src="https://bom.to/5ELtErG" width="200" height="100" alt="">
+            </div>
+            <!--1.1-->
+            <div class="flex pt-4">
+                <a href=""> <img src="https://bom.to/Q54gH5P" width="40" height="40" alt=""></a>
+                <span class="text-white pl-4 ">59 Street, Newyork City, Rose Town, 05 Rive House</span>
+            </div>
+            <!--1.2-->
+            <div class="flex pt-4">
+                <img src="https://bom.to/xwTC72o" width="30" height="30" alt="">
+                <span class="text-white pl-4">+123 456 7890</span>
+            </div>
+            <!--1.3-->
+            <div class="flex pt-4">
+                <img src="https://bom.to/J4b9oIN" width="30" height="30" alt="">
+                <span class="text-white pl-4">info@example.com</span>
+            </div>
+            <!--1.4-->
+        </div>
+        <!--1-->
+
+        <div class="text-white mt-10 pt-10">
+            <div>
+                <span class="text-xl">INFORMATION</span>
+                <hr class="w-16">
+            </div>
+            <!--infor-->
+            <div class="mt-4 grid grid-rows-3 gap-5">
+                <span>About Us</span>
+                <span>Latest Post</span>
+                <span>Selling Tips</span>
+                <span>Advertsing</span>
+                <span>Contact Us</span>
+            </div>
+        </div>
+        <!--2-->
+
+        <div class="text-white mt-10 pt-10">
+            <div>
+                <span class="text-xl">MY ACCOUNT</span>
+                <hr class="w-16">
+            </div>
+            <!--infor-->
+            <div class="mt-4 grid grid-rows-3 gap-5">
+                <span>My account</span>
+                <span>Login/Register</span>
+                <span>Cart</span>
+                <span>Whishlist</span>
+                <span>Order History</span>
+            </div>
+        </div>
+        <!--3-->
+
+        <div class="text-white mt-10 pt-10">
+            <div>
+                <span class="text-xl">HELP & SUPPORT</span>
+                <hr class="w-16">
+            </div>
+            <!--infor-->
+            <div class="mt-4 grid grid-rows-3 gap-5">
+                <span>How To Shop</span>
+                <span>Payment</span>
+                <span>Returns</span>
+                <span>Delivery</span>
+                <span>Privacy & Cookie Policy</span>
+            </div>
+        </div>
+        <!--4-->
+    </div>
+    <!--end web -->
+    <hr>
+    <footer class="bg-black text-white font-mono xl:h-32">
+        <div class="flex pt-5">
+            <span class="xl:pt-8 text-base">© Copyright Metro 2020 <br> Designed and Developed by DungDT11234</span>
+            <a class="pl-4" href=""> <img src="https://bom.to/KUC211k" width="50" height="30" alt=""></a>
+            <a class="pl-4" href=""> <img src="https://bom.to/AVCdUrX" width="50" height="30" alt=""></a>
+            <a class="pl-4" href=""> <img src="https://bom.to/qY6twSx" width="50" height="30" alt=""></a>
+            <a class="pl-4" href=""> <img src="https://bom.to/mGUo9L7" width="50" height="30" alt=""></a>
+            <a class="pl-4" href=""> <img src="https://bom.to/YHgNDBP" width="80" height="30" alt=""></a>
+        </div>
+    </footer>
 
     </div>
 
-
-
-
 </body>
+<script>
+    const btnMoblie = document.querySelector('#btnMobile');
+    const mainMenu = document.querySelector('#main-menu');
+
+    btnMoblie.addEventListener('click', function () {
+        mainMenu.classList.toggle('hidden');
+        console.log(1);
+    })
+
+    const categories = document.querySelector('#categories');
+    const categories2 = document.querySelector('#categories2');
+
+    categories.addEventListener('click', function () {
+        categories2.classList.toggle('hidden');
+        console.log(1);
+    })
+
+
+</script>
+
 
 </html>
