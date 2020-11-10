@@ -5,7 +5,12 @@ module.exports = {
   },
   purge: [],
   theme: {
-    extend: {},
+    
+    extend: {
+      inset: {
+        '1/2':'50%'
+      }
+    },
   },
   variants: {
     translate: ['group-hover'],

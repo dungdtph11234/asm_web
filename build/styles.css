@@ -12526,6 +12526,9 @@ video {
 .pl-64 {
   padding-left: 16rem;
 }
+.pl-custom600 {
+  padding-left: 600px;
+}
 
 .pt-px {
   padding-top: 1px;
@@ -18347,7 +18350,9 @@ video {
 .w-64 {
   width: 16rem;
 }
-
+.w-custom600{
+  width: 600px;
+}
 .w-auto {
   width: auto;
 }
